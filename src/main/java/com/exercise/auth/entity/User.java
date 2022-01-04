@@ -8,6 +8,7 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @ToString
 @Entity
@@ -17,8 +18,9 @@ import java.util.Date;
 public class User {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long seq;
-    @JoinColumn(nullable = false)
+    @JoinColumn(nullable = false, name="id")
     private String id;
     @Column(nullable = false)
     private String pwd;
@@ -36,6 +38,9 @@ public class User {
     private Date regDate;
     @Column(nullable = false)
     private String birthDate;
+    @ManyToOne
+    @Column
+    private List<String> authorities;
 
     public User() {}
 
