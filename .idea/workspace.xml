@@ -4,39 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c37a5ae4-30f3-45f9-b968-285d12f20439" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/ResourceServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/exception/UserExistedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/service/UserService.java" afterDir="false" />
+    <list default="true" id="c37a5ae4-30f3-45f9-b968-285d12f20439" name="변경" comment="&quot;엔티티 set(manytoone)적용, jpql(@Query annotaion)&quot;">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercise/auth/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/exercise/auth/AuthApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/exercise/auth/AuthApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.exercise.auth.AuthApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.exercise.auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.exercise.auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.exercise.auth.AuthApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/ResourceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/ResourceServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/jwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/jwtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/auth/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exercise/auth/AuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/auth/jwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/auth/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +55,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="22rtcsLmLSqKeF6OxpWp4BqSYEE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,7 +68,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.RepositoryTest.findByUserSuccessTest">
+  <component name="RunManager" selected="애플리케이션.AuthApplication">
+    <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.auth.AuthApplication" />
+      <module name="auth.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthApplicationTests.delete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.AuthApplication" />
         <item itemvalue="Gradle.RepositoryTest.findByUserSuccessTest" />
         <item itemvalue="Gradle.AuthApplicationTests.delete" />
       </list>
@@ -143,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1640607617096</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;엔티티 set(manytoone)적용, jpql(@Query annotaion)&quot;">
+      <created>1641331587329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641331587329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +166,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;엔티티 set(manytoone)적용, jpql(@Query annotaion)&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;엔티티 set(manytoone)적용, jpql(@Query annotaion)&quot;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -168,6 +182,10 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.security.access.AccessDeniedException" package="org.springframework.security.access" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

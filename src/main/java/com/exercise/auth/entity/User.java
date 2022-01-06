@@ -38,8 +38,8 @@ public class User {
     private Date regDate;
     @Column(nullable = false)
     private String birthDate;
-    @ManyToOne
-    @Column
+    @Column(name = "authorities")
+    @ElementCollection(targetClass = String.class, fetch = FetchType.EAGER)
     private List<String> authorities;
 
     public User() {}

@@ -15,9 +15,12 @@ public class ResourceServer extends ResourceServerConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
         http.cors().and()   //
                 .authorizeRequests()    //
-                .antMatchers("/user/sign-up").permitAll()   //sign-up 은 모든 사용자에게 허용
-                .antMatchers("/user/user-info").hasAnyAuthority("admin")
-                .anyRequest().authenticated().and() //
+                .antMatchers("/user/login").permitAll().and()
+                //.antMatchers("/user/sign-up").permitAll()   //sign-up 은 모든 사용자에게 허용
+                //.antMatchers("/user/user-info").hasAnyAuthority("admin")
+                .authorizeRequests().anyRequest().authenticated().and() //
                 .exceptionHandling().accessDeniedHandler(new OAuth2AccessDeniedHandler());
+
+
     }
 }
