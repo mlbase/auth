@@ -1,6 +1,6 @@
 package com.exercise.auth.service;
 
-import com.exercise.auth.entity.User;
+import com.exercise.auth.entity.Users;
 import com.exercise.auth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -24,29 +24,29 @@ public class UserService implements UserDetailsService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public User findById(String id) {
-        Optional<User> option = userRepository.findByid(id);
+    public Users findById(String id) {
+        Optional<Users> option = userRepository.findByid(id);
         if(!option.isPresent())
             return null;
         return option.get();
     }
 
-    public User registerUser(User user){
-        String encodedPassword = passwordEncoder.encode(user.getPwd());
-        user.setPwd(encodedPassword);
-        return userRepository.save(user);
+    public Users registerUser(Users users){
+        String encodedPassword = passwordEncoder.encode(users.getPwd());
+        users.setPwd(encodedPassword);
+        return userRepository.save(users);
     }
 
-    private Collection<? extends GrantedAuthority> authorities(User user){
-        return user.getAuthorities().stream().map(authority -> new SimpleGrantedAuthority(authority)).collect(Collectors.toList());
+    private Collection<? extends GrantedAuthority> authorities(Users users){
+        return users.getAuthorities().stream().map(authority -> new SimpleGrantedAuthority(authority)).collect(Collectors.toList());
     }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Optional<User> option = userRepository.findByid(username);
+        Optional<Users> option = userRepository.findByid(username);
         if(!option.isPresent())
             throw new UsernameNotFoundException("User not found : "+username);
-        User user = option.get();
-        return new org.springframework.security.core.userdetails.User(user.getId(),user.getPwd(),authorities(user));
+        Users users = option.get();
+        return new org.springframework.security.core.userdetails.User(users.getId(), users.getPwd(),authorities(users));
     }
 }
